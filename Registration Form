@@ -1,0 +1,42 @@
+<html>
+    <style>
+        body{margin-left:0.5in;margin-right:0.5in;margin-top:0.5in;background-color:rgb(240, 235, 248); justify-content: center; align-items: center;display:block;}
+        h1{color:white;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;text-align: center;border:double 10px blue;}
+        hr{width: 100%;border: 1px solid blue;}
+        input, textarea, select { margin: 5px 0;padding: 5px;width: 100%;max-width: 300px;}
+    </style>
+    <title>form</title>
+        <center>
+            <marquee behavior="scroll" direction="left" vspace="10" hspace="10" bgcolor="darkviolet"  scrolldelay="5" loop=-1>
+            <h1>Registration Form</h1>
+            </marquee>
+            <hr>
+        </center>
+        <body>
+        <b>Full Name:<input type="text" placeholder="Enter your Full Name"><br>
+        <hr>
+        Branch:<input type="text" placeholder="Enter your Branch Name"><br><hr>
+        Address:<textarea rows="2" cols=91>
+        </textarea><br><hr>
+        City:<input type="text"><br><hr>
+        <img src="cb.png" height="600" width="700"></iframe><hr>
+        Phone Number:<input type="text"><br><hr>
+        Email Id:<input type="text"><br><hr>
+        Domain
+        <select>
+            <option>Web Development
+                <option>Competitive Programming
+                    <option>Blockchain Technology 
+                        <option>Machine Learning
+        </select><br><hr>
+        Gender:
+        <input type="radio"name="r1">Male
+        <input type="radio"name="r1">Female
+        <input type="radio"name="r1">Others<br><hr>
+        Password:<input type="password"><br>
+        Retype Password:<input type="password"><br><hr>
+        Check the form:
+        <input type="checkbox">2 times<br>
+        <input type="button" value="Submit">
+    </body>
+</html>
